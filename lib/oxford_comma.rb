@@ -1,7 +1,7 @@
 def oxford_comma(array)
   if array.count == 3
-    array.join(", ") 
     array.push(" and ")
+    array.join(", ") 
   elsif array.count > 3
     array.join(", ")
   else  
